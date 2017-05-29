@@ -1,0 +1,126 @@
+
+* {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+body {
+    /*background-color: lightgreen;*/
+    margin: 0 auto;
+}
+/*navbar/menu*/
+.container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#nav {
+    /*position: -webkit-sticky;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    
+    position: fixed;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 3.5%;
+    background-color: lightcyan;
+    border: 5px solid mistyrose;
+}
+ul {
+    width: 33.3333%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.menu-home {
+    display: inline-block;
+}
+
+.menu-news {
+    display: inline-block;
+}
+
+.menu-videos {
+    display: inline-block;
+}
+
+.menu-tours {
+    display: inline-block;
+}
+
+.menu-weird-al {
+    display: inline-block;
+}
+
+.menu-catalog {
+    display: inline-block;
+}
+
+.menu-archives {
+    display: inline-block;
+}
+/*this is the big headshot section*/
+.masterHead {
+    display: block;
+    height: 796px;
+    /*background-color: red;*/
+    width: 100%;
+    
+
+}
+
+.topHalf {
+    background: url(http://weirdal.com/wp-content/uploads/2014/12/home-masthead.jpg) no-repeat center center; 
+    background-size: cover;
+}
+
+.masterFeet {
+    display: block;
+    height: 728px;
+    width: 100%;
+    background-color:lightgreen;
+
+}
+.info {
+    border: solid 5px mistyrose;
+    display: block;
+    height: 208px;
+    width: 100%;
+    background-color: orange;
+
+}
+.socialMedia {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color:#FF0133;
+
+}
+
+@media screen and (max-width:550px) {
+.nav {
+
+}
+
+.topHalf {
+
+}
+
+.bottomHalf {
+
+}
+.info {
+
+}
+.socialMedia {
+
+}
+
+
+
+
+}
