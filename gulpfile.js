@@ -11,7 +11,10 @@ gulp.task('html', function(){
 
 gulp.task('watch', function() {
    
-   watch("index.html", function() {
-       gulp.start('html');
-   }) 
+   watch('./app/index.html', function() {
+        gulp.start('html');
+        });
+        watch('./app/styles/**/*.css', function() {
+         gulp.start('styles');
+        });
 })

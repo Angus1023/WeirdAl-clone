@@ -1,0 +1,64 @@
+<html lang="en" ng-app="clone">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>"Weird AL" clone</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body ng-controller="mainCtrl">
+    
+    
+    
+        <header class="container">
+            <div >
+                <navbar id="nav">
+                    <ul>
+                        <li>
+                            <a herf='/home'>Home</a>
+                        </li>
+                        <li>
+                            <a herf=''>News</a>
+                        </li>
+                        <li>
+                            <a herf=''>Videos</a>
+                        </li>
+                        <li>
+                            <a herf=''>Tours</a>
+                        </li>
+                        <!--<li>
+                            <a herf='/home'>"WERID AL" YANKOVIC</a>
+                        </li>-->
+                        <li>
+                            <a herf=''>Catalog</a>
+                        </li>
+                        <li>
+                            <a herf=''>Archives</a>
+                        </li>
+                    </ul>
+
+                </navbar>
+
+
+            </div>
+
+        </header>
+    {{test}}
+    hello
+    <ui-view></ui-view>
+    
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js'></script>
+    <script src='./app.js'></script>
+    <script src='./mainCtrl.js'></script>
+    <script src='./archives/archivesCtrl.js'></script>
+    <script src='./catalog/catalogCtrl.js'></script>
+    <script src='./home/homeCtrl.js'></script>
+    <script src='./modules/modulesCtrl.js'></script>
+    <script src='./news/newsCtrl.js'></script>
+    <script src='./store/storeCtrl.js'></script>
+    <script src='./tour/tourCtrl.js'></script>
+    <script src='./videos/videosCtrl.js'></script>    
+        <!--Hello World-->
+</body>
+</html>
