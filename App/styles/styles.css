@@ -14,10 +14,11 @@ body {
 }
 
 #nav {
-    /*position: -webkit-sticky;*/
+    /*position: -webkit-sticky;
     /*display: flex;*/
     /*flex-direction: row;*/
     
+
     position: fixed;
     display: block;
     top: 0;
@@ -26,6 +27,11 @@ body {
     background-color: lightcyan;
     border: 5px solid mistyrose;
 }
+#nav a {
+        text-decoration: none;
+        font-weight: 500;
+}
+
 ul {
     width: 33.3333%;
     text-align: center;
@@ -36,33 +42,46 @@ ul {
     justify-content: space-around;
     margin: 0 auto;
 }
-.menu-home {
-    display: inline-block;
+.menu {
+    /*display: inline-block;*/
+    display: flex;
+    flex-direction: row;
+
+    a {
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    &__home {
+       padding-right: 1.5rem;  
+    }
+
+    &__news {
+        padding-right: 1.5rem;        
+    }
+
+    &__videos {
+        padding-right: 1.5rem;        
+    }
+
+    &__tours {
+        padding-right: 1.5rem;        
+    }
+
+    &__catalog {
+        padding-right: 1.5rem;        
+    }
+
+    &__store {
+        padding-right: 1.5rem;        
+    }
+
+    &__archives {
+        padding-right: 1.5rem;
+    }
 }
 
-.menu-news {
-    display: inline-block;
-}
 
-.menu-videos {
-    display: inline-block;
-}
-
-.menu-tours {
-    display: inline-block;
-}
-
-.menu-weird-al {
-    display: inline-block;
-}
-
-.menu-catalog {
-    display: inline-block;
-}
-
-.menu-archives {
-    display: inline-block;
-}
 /*this is the big headshot section*/
 .masterHead {
     display: block;

@@ -1,0 +1,31 @@
+.menu {
+    display: inline-block;
+
+    &__home {
+       padding-right: 1.5rem;  
+    }
+
+    &__news {
+        padding-right: 1.5rem;        
+    }
+
+    &__videos {
+        padding-right: 1.5rem;        
+    }
+
+    &__tours {
+        padding-right: 1.5rem;        
+    }
+
+    &__catalog {
+        padding-right: 1.5rem;        
+    }
+
+    &__store {
+        padding-right: 1.5rem;        
+    }
+
+    &__archives {
+        padding-right: 1.5rem;
+    }
+}

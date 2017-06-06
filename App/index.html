@@ -9,43 +9,56 @@
 <body ng-controller="mainCtrl">
     
     
+    <header class="menu">
+        <div >
+        <navbar id="nav">
+                <ul>
+                    <div class='menu__home'>
+                        <li>
+                            <a ui-sref='home'>Home</a>
+                        </li>
+                    </div>
+                    <div class='menu__news'>
+                        <li>
+                            <a ui-sref='news'>News</a>
+                        </li>
+                    </div>
+                    <div class='menu__videos'>
+                        <li>
+                            <a ui-sref='videos'>Videos</a>
+                        </li>
+                    </div>
+                    <div class='menu__tours'>
+                        <li>
+                            <a ui-sref='tours'>Tours</a>
+                        </li>
+                    </div>
+                <!--<li>
+                        <a herf='/home'>"WERID AL" YANKOVIC</a>
+                    </li>-->
+                    <div class='menu__catalog'>
+                        <li>
+                            <a ui-sref='catalog'>Catalog</a>
+                        </li>
+                    </div>
+                    <div class='menu__store'>
+                        <li>
+                            <a ui-sref='store'>Store</a>
+                        </li>
+                    </div>
+                    <div class='menu__archives'>
+                        <li>
+                            <a ui-sref='archives'>Archives</a>
+                        </li>
+                    </div>
+                </ul>
+            </navbar>
+        </div>
+    </header>
     
-        <header class="container">
-            <div >
-                <navbar id="nav">
-                    <ul>
-                        <li>
-                            <a herf='/home'>Home</a>
-                        </li>
-                        <li>
-                            <a herf=''>News</a>
-                        </li>
-                        <li>
-                            <a herf=''>Videos</a>
-                        </li>
-                        <li>
-                            <a herf=''>Tours</a>
-                        </li>
-                        <!--<li>
-                            <a herf='/home'>"WERID AL" YANKOVIC</a>
-                        </li>-->
-                        <li>
-                            <a herf=''>Catalog</a>
-                        </li>
-                        <li>
-                            <a herf=''>Archives</a>
-                        </li>
-                    </ul>
-
-                </navbar>
-
-
-            </div>
-
-        </header>
-    {{test}}
-    hello
+    
     <ui-view></ui-view>
+    
     
     <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js'></script>
