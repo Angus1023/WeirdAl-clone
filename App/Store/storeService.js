@@ -8,4 +8,11 @@ angular.module('clone').service('storeService', function($http) {
                 return response.data;
             });
     };
+
+    this.getId = function() {
+        return $http.get('/api/shirts/:id')
+            .then(function(){
+                return response.data;
+            })
+    }
 });

@@ -3,7 +3,7 @@
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 body {
-    /*background-color: lightgreen;*/
+    font-family: 'Open Sans Condensed', sans-serif;
     margin: 0 auto;
 }
 /*navbar/menu*/
@@ -19,15 +19,10 @@ body {
     /*flex-direction: row;*/
     
 
-    position: fixed;
-    display: block;
-    top: 0;
-    width: 100%;
-    height: 3.5%;
-    background-color: lightcyan;
+    ;
     
 }
-#nav a {
+.menu a {
         text-decoration: none;
         font-weight: 500;
 }
@@ -44,8 +39,18 @@ ul {
 }
 .menu {
     /*display: inline-block;*/
+    position: fixed;
+    display: block;
+    padding-top: 0.625rem;
+    top: 0;
+    font-size: 0.875rem;
+    width: 100%;
+    height: 2.0625rem;
+    background-color: lightcyan;,
     display: flex;
     flex-direction: row;
+    padding-top: 0.625rem;
+   
 
     a {
         text-decoration: none;
@@ -83,57 +88,86 @@ ul {
 
 
 /*this is the big headshot section*/
-.masterHead {
+.headshot {
     display: block;
     height: 56.4375rem;
     /*background-color: red;*/
-    width: 100%;
-    
-
+    width: 100%;  
 }
-.masterHeadStore {
-    
+.headshot-news {
+    display: block;
+    height: 28.9375rem;
+    width: 100%;
+}
+.headshot-catalog {
+    display: block;
+    height: 29rem;
+    width: 100%;
+}
+.headshot-archive {
+    display: block;
+    height: 29rem;
+    width: 100%;
+}
+.headshot-tour {
+    display: block;
+    height: 18.9375rem;
+    width: 100vw;
+}
+.headshot-video {
+    padding-top: 1.9375rem;
+    display: block;
+    height: 46.5rem;
+    width: 100vw;
+    background-color: red;
+}
+.storeHeader {    
     display: block;
     height: 28.3125rem;
     /*background-color: red;*/
     width: 100%;
-    /*padding-top: 3.5rem;*/
-    
-
+    /*padding-top: 3.5rem;*/  
 }
-
+.title {
+    margin-left: 19.4375rem;
+    font-size: 2.75rem;
+    /*font-weight: bold;*/
+    line-height: 2.25rem;
+}
+.row {
+    height: 22.8125rem;
+    width: 22.8125rem;
+}
 .topHalf {
     background: url(http://weirdal.com/wp-content/uploads/2014/12/home-masthead.jpg) no-repeat center center; 
     background-size: cover;
 }
-
-.masterFeet {
+.mainInfo {
     display: block;
-    height: 728px;
+    height: 52.5rem;
     width: 100%;
     background-color:lightgreen;
-
 }
 .info {
-    border: solid 5px mistyrose;
     display: block;
-    height: 208px;
+    height: 12.8125rem;
     width: 100%;
     background-color: orange;
-
 }
 .socialMedia {
     display: block;
     width: 100%;
-    height: 60px;
+    height: 3.078125rem;
     background-color:#FF0133;
-
+}
+.store-footer {
+    background-color: #EEEEEE; 
+    height: 26.9375rem;
+    width: 100%; 
 }
 
 @media screen and (max-width:550px) {
-.nav {
 
-}
 
 .topHalf {
 
