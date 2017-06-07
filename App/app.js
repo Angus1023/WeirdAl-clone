@@ -30,7 +30,7 @@ angular.module("clone", ['ui.router']).config(function($urlRouterProvider, $stat
             })
             .state("store", {
                 templateUrl: "store/store.html",
-                controller:"",
+                controller:"storeCtrl",
                 url: '/store'
             })
             .state("archives", {

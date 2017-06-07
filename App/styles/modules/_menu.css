@@ -1,4 +1,5 @@
-.menu {
+.menu { 
+ 
     display: inline-block;
 
     &__home {

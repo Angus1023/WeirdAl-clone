@@ -1,8 +1,17 @@
-<header class="" style="background: url(//jsrdirect.com/media/wysiwyg/way-header-1.jpg) no-repeat center top;
+<header id="" class="masterHeadStore" style="background: url(//jsrdirect.com/media/wysiwyg/way-header-1.jpg) no-repeat center top;
     background-size: cover;">
     
 </header>
+store
 
-<coreOne class="">
-    
-</coreOne>
+<div id="store"  ng-repeat="s in shirts">
+    <div class="">
+        <ul>
+            <li>{{s.id}}</li>
+            <li>{{s.title}}</li>
+            <li>{{s.type}}</li>
+            <li>{{s.price}}</li>
+            <li>{{s.sku}}</li>
+        </ul>
+    </div>    
+</div>
