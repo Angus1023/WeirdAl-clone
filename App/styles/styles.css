@@ -27,7 +27,7 @@ body {
         font-weight: 500;
 }
 
-ul {
+.nav {
     width: 33.3333%;
     text-align: center;
     display: flex;
@@ -36,6 +36,28 @@ ul {
     list-style-type: none;
     justify-content: space-around;
     margin: 0 auto;
+}
+.links-nav {
+  list-style: none;  
+  line-height: 18px;
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 13px;
+  color: #999999;
+    
+}
+.links-nav a {
+    text-decoration: none;
+}
+.links-list {
+    list-style: none;  
+    line-height: 18px;
+    padding-left: 1.625rem;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 13px;
+    color: #999999;
 }
 .menu {
     /*display: inline-block;*/
@@ -131,12 +153,38 @@ ul {
 .title {
     margin-left: 19.4375rem;
     font-size: 2.75rem;
-    /*font-weight: bold;*/
+    font-weight: bold;
     line-height: 2.25rem;
 }
+.title-account{
+    margin-bottom: 0.06875rem; 
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 13px;
+    color: #999999;
+}
 .row {
+    display: block;
     height: 22.8125rem;
     width: 22.8125rem;
+    background-color: lightskyblue;
+}
+.row-footer {
+    height: 18.9375rem;
+    width: 17rem;
+    background-color: #FFFFFF;
+    border: 3px solid  #D6D6D6;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper {
+    max-width: 73.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fence {
+    padding: 10 16 10 16;
+    /*background-color: yellow;*/
 }
 .topHalf {
     background: url(http://weirdal.com/wp-content/uploads/2014/12/home-masthead.jpg) no-repeat center center; 

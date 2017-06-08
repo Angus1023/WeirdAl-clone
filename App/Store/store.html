@@ -6,9 +6,10 @@
         <h3>STORE</h3>
     </div>
 
-<div id="store"  ng-repeat="s in shirts">
-    <div class="row">
-        <ul>            
+<div id="store" class=""  ng-repeat="s in shirts">
+    <div class="wrapper" >
+        <ul class="row"> 
+            <!--this is where the Img will go           -->
             <h3><li>{{s.title}}</li></h3>
                      
             <li>{{s.type}}</li>
@@ -21,8 +22,60 @@
     </div>    
 </div>
 
-<footer>
-    <div class="store-footer">
+<footer class="store-footer">
+    <div class="wrapper">
+        <div class="row-footer">
+            <div class='fence'>
+                <h6 class="title-account">CUSTOMER SERVICE</h6>
+                    <ul class='links-list'>
+                        <li>Customer Service</li>
+                        <li>Product Information</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>                  
+
+                <h6 class="title-account">SITE LINKS</h6>
+                    <ul class='links-list'>
+                        <li>Advanced Search</li>
+                        <li>Orders and Returns</li>
+                        <li>Contact Customer Service</li>
+                    </ul>
+
+            </div>
+            
+        </div>
+
+        <div class="row-footer">
+            <div class='fence'>
+                <h6 class="title-account">MANAGE YOUR ACCOUNT</h6>
+                <ul class="links-nav">
+                    <li><a ui-sref=".account">My Account</a></li>
+                    <li><a ui-sref="">My Wishlist</a></li>
+                    <li><a ui-sref="">My Cart</a></li>
+                    <li><a ui-sref="">Checkout</a></li>
+                    <li><a ui-sref="">Login</a></li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="row-footer">
+            <div class='fence'>
+                "Weird Al" FB account
+            </div>
+            
+        </div>
+
+        <div class="row-footer">
+            <div class='fence'>
+                "Weird Al" twitter account
+            </div>
+            
+        </div>
 
     </div>
 </footer>
